@@ -70,6 +70,7 @@ body {
     width: 25px;
     position: relative;
     transition: background 0.5s ease-in-out;
+    border-radius: 20px;
 }
 
 .header .menu-icon .nav-icon:before {
@@ -81,6 +82,7 @@ body {
     position: absolute;
     top: 8px;
     transition: all 0.3s ease-in-out;
+    border-radius: 20px;
 }
 
 .header .menu-icon .nav-icon:after {
@@ -92,6 +94,7 @@ body {
     position: absolute;
     top: -8px;
     transition: all 0.3s ease-in-out;
+    border-radius: 20px;
 }
 
 .header .menu-btn {
