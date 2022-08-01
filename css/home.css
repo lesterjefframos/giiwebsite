@@ -43,6 +43,75 @@
     border-radius: 5px;
 }
 
+@media screen and (min-width: 768px) {
+
+    .home-banner-container {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        padding: 30px 60px;
+    }
+
+    .banner-img img {
+        width: 320px;
+    }
+
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .home-text p {
+        font-size: 20px;
+    }
+
+    .home-cta {
+        margin: 45px 0;
+    }
+
+    .home-cta a {
+        font-size: 16px;
+        padding: 15px 35px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .home-banner-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0;
+    }
+    
+    .banner-img img {
+        width: 400px;
+    }
+
+    .home-text {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .banner-img img {
+        width: 500px;
+    }
+
+    .home-banner-container {
+        justify-content: center;
+    }
+
+    .home-text h1 {
+        font-size: 45px;
+    }
+
+    .home-text p {
+        font-size: 30px;
+    }
+
+}
+
 .svc-section-container {
     display: flex;
     justify-content: center;
@@ -59,12 +128,18 @@
     line-height: 20px;
 }
 
+.section-title P {
+    line-height: 16px;
+    font-size: 14px;
+}
+
 .section-title h1 {
+    margin: 20px 0;
     font-size: 20px;
     text-transform: uppercase;
 }
 
-.svc-img-container {
+.svc-img-container div {
     margin: 30px
 }
 
@@ -106,6 +181,100 @@
     border-radius: 5px;
 }
 
+@media screen and (min-width: 480px) {
+    .section-title p {
+        line-height: 22px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .svc-crm img,
+    .svc-it-cons img,
+    .svc-mkt-cons img,
+    .svc-payment img,
+    .svc-soft-dev img {
+        height: 180px;
+    }
+
+    .section-title h1 {
+        font-size: 30px;
+    }
+
+    .section-title p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .svc-btn a {
+        font-size: 16px;
+        padding: 15px 35px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .svc-section-container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .svc-img-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .svc-text {
+        margin: 100px;
+    }
+
+    .svc-crm img,
+    .svc-it-cons img,
+    .svc-mkt-cons img,
+    .svc-payment img,
+    .svc-soft-dev img {
+        height: 150px;
+    }
+
+    .cont-spacer {
+        padding: 0 85px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .svc-crm img,
+    .svc-it-cons img,
+    .svc-mkt-cons img,
+    .svc-payment img,
+    .svc-soft-dev img {
+        height: 150px;
+        padding: 0 50px;
+    }
+
+    .cont-spacer {
+        padding: 0 5px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .svc-crm img,
+    .svc-it-cons img,
+    .svc-mkt-cons img,
+    .svc-payment img,
+    .svc-soft-dev img {
+        height: 120px;
+    }
+
+    .cont-spacer img {
+        padding: 0 10px;
+    }
+
+}
+
+
 .partner-section-container {
     display: flex;
     justify-content: center;
@@ -142,6 +311,23 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
+
+@media screen and (min-width: 768px) {
+
+    .partner-section-container {
+        margin-bottom: 50px;
+    }
+
+    .partner-btn a {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+
+    .partner-logo img {
+        width: 150px;
+    }
+}
+
 .why-section-container {
     display: flex;
     justify-content: center;
@@ -151,7 +337,7 @@
 }
 
 .team-img {
-    margin: 10px;
+    margin: 0;
 }
 
 .team-img img {
@@ -159,7 +345,7 @@
 }
 
 .join-cta {
-    margin: 25px;
+    margin: 50px 25px;
 }
 
 .join-cta a {
@@ -172,3 +358,40 @@
     padding: 15px 45px;
     border-radius: 5px;
 }
+
+@media screen and (min-width: 768px) {
+
+    .section-title h1 {
+        margin: 0;
+    }
+
+    .img-text-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        text-align: left;
+    }
+
+    .img-text-container img,
+    .img-text-container p {
+        margin: 0 27px;
+    }
+
+    .team-img img {
+        height: 350px;
+    }
+
+    .why-section-container {
+        justify-content: space-around;
+    }
+
+    .join-cta a {
+        font-size: 16px;
+        padding: 15px 45px;
+    }
+}
+
+
+

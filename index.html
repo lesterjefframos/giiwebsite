@@ -10,6 +10,7 @@
     <title>Gamma Interactive Inc. | Home</title>
 </head>
 <body>
+    
     <header class="header">
         <a href="#" class="logo">
             <img src="img/gii-logo.svg" alt="Gamma Interactive Inc. Logo">
@@ -17,15 +18,14 @@
         <input type="checkbox" class="menu-btn" id="menu-btn">
         <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
         <ul class="menu">
-            <li><a href="">Home</a></li>
+            <li class="active"><a href="">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="partners.html">Partners</a></li>
             <li><a href="careers.html">Careers</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
         </ul>
     </header>
-    <!--begin body-->
 
     <div class="home-banner-container">
         <div class="home-text">
@@ -42,43 +42,35 @@
 
     <div class="svc-section-container">
         <div class="section-title">
-            <h1>what we can do for you</h1>
-            <p>Talk to leading experts in your industry.<br><br>
+            <h1 style="margin-bottom: 25px;">what we can do for you</h1>
+            <p>Talk to leading experts in your industry.<br>
                 We will help your brand grow while you
                 focus on what matters most.</p>
         </div>
         <div class="svc-img-container">
-            <div class="svc-text svc-crm">
+            <div class="svc-text svc-crm cont-spacer">
                 <img src="img/crm.svg" alt="Customer Relationship">
                 <h1> CUSTOMER CARE AND<br>RELATIONSHIP MANAGEMENT</h1>
                 <p>Customer Satisfaction is Our Passion</p>
             </div>
-        </div>
-        <div class="svc-img-container">
-            <div class="svc-text svc-it-cons">
+            <div class="svc-text svc-it-cons cont-spacer">
                 <img src="img/it-cons.svg" alt="Customer Relationship">
                 <h1>INFORMATION TECHNOLOGY<br>CONSULTATION</h1>
                 <p>Modernization and Optimization</p>
             </div>
-        </div>
-        <div class="svc-img-container">
-            <div class="svc-text svc-mkt-cons">
+            <div class="svc-text svc-mkt-cons cont-spacer">
                 <img src="img/mkt-cons.svg" alt="Customer Relationship">
-                <h1>Marketing consultation</h1>
+                <h1>Marketing<br>consultation</h1>
                 <p>Increase Online Visibility</p>
             </div>
-        </div>
-        <div class="svc-img-container">
-            <div class="svc-text svc-payment">
+            <div class="svc-text svc-payment cont-spacer">
                 <img src="img/payment-sup.svg" alt="Customer Relationship">
-                <h1>payment solution and support</h1>
+                <h1>payment solution<br>and support</h1>
                 <p>Payment Made Easy</p>
             </div>
-        </div>
-        <div class="svc-img-container">
-            <div class="svc-text svc-soft-dev">
+            <div class="svc-text svc-soft-dev cont-spacer">
                 <img src="img/software-support.svg" alt="Customer Relationship">
-                <h1>Software support and development</h1>
+                <h1>Software support<br>and development</h1>
                 <p>Built for Business</p>
             </div>
         </div>
@@ -89,7 +81,7 @@
 
     <div class="partner-section-container">
         <div class="section-title">
-            <h1>our partners</h1>
+            <h1 style="margin-bottom: 25px;">our partners</h1>
             <p>We have partners in over 12 countries and we are proud<br>to have helped them grow their businesses and<br>optimized their performance</p>
         </div>
         <div class="partner-logo">
@@ -103,13 +95,17 @@
     <div class="why-section-container">
         <div class="section-title">
             <h1>why gii?</h1>
-            <div class="team-img">
-                <img src="img/why-gii.svg" alt="Gold Arrakis Logo">
+            <div class="img-text-container">
+                <div class="team-img">
+                    <img src="img/why-gii.svg" alt="Gold Arrakis Logo">
+                </div>
+                <div class="text-btn-container">
+                    <p>Utilize our payment support to cut down on processing<br>times by more than 50%. Our relationship<br>management and marketing will also help you<br>increase customer retention rates.</p>
+                    <div class="join-cta">
+                        <a href="">join us today</a>
+                    </div>
+                </div>
             </div>
-            <p>Utilize our payment support to cut down on processing<br>times by more than 50%. Our relationship<br>management and marketing will also help you<br>increase customer retention rates.</p>
-        </div>
-        <div class="join-cta">
-            <a href="">join us today</a>
         </div>
     </div>
 
@@ -118,30 +114,34 @@
         <div class="footer-menu">
             <ul class="menu">
                 <li><a href="">Home |</a></li>
-                <li><a href="">About Us |</a></li>
-                <li><a href="">Services |</a></li>
-                <li><a href="">Partners |</a></li>
-                <li><a href="">Careers |</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="about.html">About Us |</a></li>
+                <li><a href="services.html">Services |</a></li>
+                <li><a href="partners.html">Partners |</a></li>
+                <li><a href="careers.html">Careers |</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
             </ul>
         </div>
-        <div class="location">
-            <img src="img/location-icon.svg" alt="Location Icon">
-            <p>21st Floor Alphaland Makati Place<br>7232 Ayala Ave Cor. Malugay St.<br>Bel-Air Makati City </p>
+        <div class="detail-container">
+            <div class="detail-wrapper">
+                <div class="location">
+                    <img src="img/location-icon.svg" alt="Location Icon">
+                    <p>21st Floor Alphaland Makati Place<br>7232 Ayala Ave Cor. Malugay St.<br>Bel-Air Makati City </p>
+                </div>
+                <div class="contact">
+                    <img src="img/contact-icon.svg" alt="Contact Icon">
+                    <p>Contact: 02-53183800<br>Email&nbsp;&nbsp;&nbsp;&nbsp;: recruitment@giiph.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="img/gii-logo.svg" alt="">
+            </div>
         </div>
-
-        <div class="contact">
-            <img src="img/contact-icon.svg" alt="Contact Icon">
-            <p>Contact: 02-53183800<br>Email: recruitment@giiph.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-        </div>
-        <div class="footer-logo">
-            <img src="img/gii-logo.svg" alt="">
-        </div>
-        
         <div class="footer-text">
             <span>All Rights Reserved 2022</span>
         </div>
     </div>
+    
+<!--scrip here-->
 
 </body>
 </html>
