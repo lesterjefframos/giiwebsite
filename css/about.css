@@ -1,0 +1,61 @@
+.about-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-text {
+    text-align: right;
+}
+
+.about-text h1 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about-text p {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.about-text h1,
+.about-text p {
+    color: #455EBB;
+}
+
+.about-text,
+.about-img {
+    margin: 20px 80px;
+}
+
+.our-story {
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.our-story {
+    display: block;
+    text-align: center;
+    background-image: url('../img/building-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 317px;
+    position: relative;
+}
+
+.our-story h1,
+.our-story p {
+    color: #455EBB;
+}
+
+.our-story h1 {
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+
+.our-story p {
+    margin: 25px 150px;
+}

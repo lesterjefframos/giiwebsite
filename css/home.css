@@ -1,0 +1,150 @@
+.home-banner {
+    background-image: url('../img/home-banner.jpg');
+    background-position: center;
+}
+
+.home-img {
+    max-height: 550px;
+    height: 550px;
+    background-size: cover;
+}
+
+.text-section {
+    text-align: center;
+    display: block;
+    margin: 50px 0;
+}
+
+.text-section h1,
+.text-section p {
+    color: #455EBB;
+}
+
+.text-section h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.text-section p {
+    font-size: 20px;
+}
+
+.services-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: #455EBB;
+}
+
+.svc-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.svc-tag {
+    font-size: 13px;
+}
+
+.col-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 90px;
+}
+
+.svc-button {
+    display: block;
+    text-align: center;
+    margin: 80px 0 120px 0;
+}
+
+.svc-button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #5EBB45;
+    padding: 15px 45px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.partner-section {
+    display: block;
+    width: 100%;
+    background-color: #F2FFFF;
+}
+
+.partner-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.ga-logo {
+    width: 200px;
+}
+
+.prt-button {
+    display: block;
+    text-align: center;
+    margin: 35px 0;
+}
+
+.prt-button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #5EBB45;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.why-gii-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.why-gii {
+    width: 400px;
+}
+
+.why-gii,
+.why-gii-text {
+    margin: 0 50px;
+}
+
+.why-gii-text h1,
+.why-gii-text p {
+    color: #455EBB;
+}
+
+.why-gii-text h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.why-gii-text p {
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.join-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #5EBB45;
+    padding: 15px 45px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 400;
+}
