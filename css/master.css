@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -98,7 +99,7 @@ body {
 }
 
 .header .menu-btn:checked ~ .menu {
-    max-height: 80vh;
+    max-height: 100vh;
 }
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon {
