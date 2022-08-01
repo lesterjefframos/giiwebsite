@@ -92,10 +92,9 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1366px) {
 
     .banner-img img {
-        width: 500px;
     }
 
     .home-banner-container {
