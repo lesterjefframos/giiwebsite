@@ -1,3 +1,328 @@
+.about-section-container {
+    text-align: center;
+    margin: 30px 40px;
+
+}
+
+.mob-view-title {
+    display: none;
+}
+
+.section-text {
+    color: #455EBB;
+}
+
+.section-text h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.section-text p {
+    font-size: 15px;
+}
+
+.about-img {
+    margin: 30px 0;
+}
+
+.about-img img {
+    width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-section-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .des-view-title {
+        display: none;
+    }
+
+    .mob-view-title {
+        display: unset;
+    }
+
+    .section-text {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        align-content: center;
+        align-items: center;
+    }
+
+    .section-desc h1 {
+        font-size: 25px;
+    }
+
+    .about-img {
+        margin: 0 30px;
+    }
+
+    .about-img img {
+        width: 250px;
+    }
+
+    .section-desc {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .section-desc h1 {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about-img img {
+        width: 350px;
+    }
+
+    .section-desc h1 {
+        font-size: 35px;
+    }
+
+    .section-desc p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .section-text {
+        padding: 0 100px;
+    }
+
+    .about-img {
+        margin: 0 75px;
+    }
+}
+
+.story-section {
+    text-align: center;
+    color: #455EBB;
+    background-image: url('../img/building-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.story-section h1,
+.story-section p {
+    padding: 10px;
+}
+
+.story-section h1 {
+    margin-top: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.story-section p {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .story-section h1 {
+        font-size: 25px;
+    }
+
+    .story-section p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .story-section h1 {
+        font-size: 35px;
+    }
+
+    .story-section p {
+        font-size: 18px;
+        margin: 0 80px
+    }
+}
+
+.team-section-container {
+    text-align: center;
+    margin: 85px 10px;
+    color: #455EBB;
+}
+
+.team-section-title h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.team-section-title p {
+    font-size: 15px;
+}
+
+.team-img {
+    background-image: url('../img/team.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px 10px;
+}
+
+.mob-view-title-team {
+    display: none;
+}
+
+.team-img-big {
+    display: none;
+}
+
+.talk-to-us {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.talk-to-us a {
+    background-color: #5EBB45;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 15px 45px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .mob-view-title-team {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .team-section-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px;
+    }
+
+    .team-img-text-container {
+        display: flex;
+        text-align: left;
+    }
+
+    .team-img {
+        display: none;
+    }
+
+    .team-img-big {
+        display: block;
+        margin: 0 20px;
+        border-radius: 15px;
+    }
+
+    .team-img-big img {
+        height: 295px;
+    }
+
+    .talk-to-us {
+        margin: 40px 0;
+    }
+
+    .text-container h1 {
+        font-size: 25px;
+    }
+
+    .text-container p {
+        font-size: 15px;
+    }
+
+    .talk-to-us {
+        margin: 40px;
+    }
+
+    .talk-to-us a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .team-section-container {
+        margin: 40px 10px;
+    }
+
+    .text-container h1 {
+        font-size: 35px;
+    }
+
+    .text-container p {
+        font-size: 18px;
+    }
+
+    .mob-view-title-team {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .team-img-big img {
+        height: 260px;
+    }
+
+    .mob-view-title-team {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .team-img-text-container {
+        margin: 0 100px;
+    }
+
+    .team-img-big img {
+        height: 350px;
+    }
+
+    .text-container {
+        align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    }
+}
+
+.mis-vis-section {
+    text-align: center;
+    color: #5EBB45;
+    background-color: #F1FFFB;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.mis-container h1,
+.vis-container h1 {
+    font-size: 20px;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.mis-container p,
+.vis-container p {
+    font-size: 15px;
+}
+
+
+.mission-img,
+.vision-img {
+    display: none;
+}
+
+
+
+
 .core-container {
     display: flex;
     justify-content: center;
@@ -217,7 +542,7 @@
         border-left: solid 1px #000;
         border-bottom: solid 1px #000;
         margin-top: 0;
-        height: 40vh;
+        height: 35vh;
     }
 
     .core-val-container {
@@ -228,7 +553,7 @@
     }
 
     .core-val-container p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .ins-container {
@@ -298,6 +623,6 @@
     }
 
     .text-def {
-        height: 38vh;
+        height: 35vh;
     }
 }
