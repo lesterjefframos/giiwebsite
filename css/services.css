@@ -1,0 +1,271 @@
+.service-banner-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #F5F7FF;
+    box-shadow: 0 10px 15px #E1E6FF;
+    color: #455EBB;
+    margin-top: 5px;
+}
+
+.svc-mob h1 {
+    display: none;
+}
+
+.svc-text h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.svc-text p {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .service-banner-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-content:center;
+        text-align: left;
+    }
+
+    .svc-des {
+        display: none;
+    }
+
+    .svc-mob h1 {
+        display: block;
+        margin: 20px 0;
+        text-transform: uppercase;
+    }
+
+    .svc-img {
+        margin: 0 20px;
+    }
+
+    .svc-img img {
+        width: 250px;
+    }
+
+    .svc-des-text {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .service-banner-container {
+        padding: 20px 110px;
+    }
+
+    .svc-des-text {
+        margin-top: 30px;
+    }
+
+    .svc-img img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .service-banner-container {
+        padding: 20px 180px;
+    }
+
+    .svc-des-text {
+        margin-top: 40px;
+    }
+
+    .svc-des-text h1 {
+        font-size: 40px;
+    }
+
+    .svc-des-text p {
+        font-size: 25px;
+    }
+
+    .svc-img img {
+        width: 400px;
+    }
+}
+
+.service-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.svc-mar {
+    margin: 30px 0;
+}
+
+.svc-crm-text-wrap h1,
+.svc-itcons-text-wrap h1,
+.svc-mktcons-text-wrap h1,
+.svc-payment-text-wrap h1,
+.svc-softdev-text-wrap h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: #455EBB;
+}
+
+.svc-crm-text-wrap h4,
+.svc-itcons-text-wrap h4,
+.svc-mktcons-text-wrap h4,
+.svc-payment-text-wrap h4,
+.svc-softdev-text-wrap h4 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.svc-crm-text-wrap p,
+.svc-itcons-text-wrap p,
+.svc-mktcons-text-wrap p,
+.svc-payment-text-wrap p,
+.svc-softdev-text-wrap p  {
+    margin: 10px;
+    font-size: 15px;
+}
+
+.svc-wrap-left {
+    background-color: #F2FFFF;
+    padding: 30px 0;
+}
+
+.svc-payment-img img,
+.svc-softdev-img img {
+    width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .service-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .svc-crm,
+    .svc-itcons,
+    .svc-mktcons,
+    .svc-payment,
+    .svc-softdev {
+        padding: 20px 30px;
+    }
+
+    .svc-wrap-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .svc-wrap-left {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .svc-align-left {
+        text-align: left;
+        margin: 0 20px;
+    }
+
+    .svc-align-right {
+        text-align: right;
+        margin: 0 20px;
+    }
+
+    .svc-crm-text-wrap p,
+    .svc-itcons-text-wrap p,
+    .svc-mktcons-text-wrap p,
+    .svc-payment-text-wrap p,
+    .svc-softdev-text-wrap p {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .svc-crm,
+    .svc-itcons,
+    .svc-mktcons,
+    .svc-payment,
+    .svc-softdev {
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .svc-crm,
+    .svc-itcons,
+    .svc-mktcons,
+    .svc-payment,
+    .svc-softdev {
+        padding: 20px 150px;
+    }
+
+    .svc-crm-text-wrap h1,
+    .svc-itcons-text-wrap h1,
+    .svc-mktcons-text-wrap h1,
+    .svc-payment-text-wrap h1,
+    .svc-softdev-text-wrap h1 {
+        font-size: 25px;
+    }
+
+    .svc-crm-text-wrap h4,
+    .svc-itcons-text-wrap h4,
+    .svc-mktcons-text-wrap h4,
+    .svc-payment-text-wrap h4,
+    .svc-softdev-text-wrap h4 {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .svc-crm-text-wrap p,
+    .svc-itcons-text-wrap p,
+    .svc-mktcons-text-wrap p,
+    .svc-payment-text-wrap p,
+    .svc-softdev-text-wrap p  {
+        font-size: 18px;
+    }
+
+    .svc-payment-img img,
+    .svc-softdev-img img {
+        width: 300px;
+        margin: 0 20px;
+    }
+
+    .svc-crm-img img,
+    .svc-itcons-img img,
+    .svc-mktcons-img img {
+        width: 270px;
+        margin: 0 20px;
+    }
+}
+
+.svc-btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.svc-btn-container {
+    display: block;
+    margin: 20px 0 50px 0;
+}
+
+.svc-btn a {
+    color: #ffffff;
+    background-color: #5EBB45;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 15px 45px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .svc-btn a {
+        font-size: 16px;
+    }   
+}
