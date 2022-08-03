@@ -120,11 +120,14 @@
     padding: 85px 95px;
     border-radius: 15px;
     transition: all 0.5s ease;
+    background-color: rgba(69, 94, 187, .8);
 }
 
 .part-logo img {
     width: 120px;
     position: absolute;
+    opacity: 0.5;
+    top: 65px
 }
 
 .details {
@@ -156,20 +159,30 @@
 }
 
 .hover-show {
-    opacity: 0;
+    opacity: 1;
     transition: all 0.5s ease;
 }
 
-.part-logo:hover .hover-show {
-    opacity: 1;
-}
+@media screen and (min-width: 1280px) {
+    .part-logo {
+        background-color: transparent;
+    }
 
-.part-logo:hover img {
-    opacity: .5;
-}
+    .part-logo img {
+        opacity: 1;
+    }
+    
+    .part-logo:hover .hover-show {
+        opacity: 1;
+    }
 
-.part-logo:hover {
-    background-color: rgba(69, 94, 187, .8);
-}
+    .part-logo:hover img {
+        opacity: .5;
+    }
 
+    .part-logo:hover {
+        background-color: rgba(69, 94, 187, .8);
+    }
+
+}
 
