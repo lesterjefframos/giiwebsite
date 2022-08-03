@@ -225,6 +225,7 @@
 
     .team-img-big img {
         height: 295px;
+        border-radius: 20px;
     }
 
     .talk-to-us {
@@ -320,6 +321,85 @@
     display: none;
 }
 
+@media screen and (min-width: 768px) {
+    .mission-img,
+    .vision-img {
+        display: block;
+    }
+
+    .mis-vis-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mis-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mis-text {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 30px
+    }
+
+    .mission-img,
+    .vision-img {
+        margin: 30px;
+    }
+
+    .mission-img img {
+        width: 200px;
+    }
+
+    .vis-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .vis-text {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 30px
+    }
+
+    .vision-img img {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mis-text h1,
+    .vis-text h1 {
+        font-size: 30px;
+    }
+
+    .mis-text p,
+    .vis-text p {
+        font-size: 18px;
+    }
+
+    
+}
+
+@media screen and (min-width: 1366px) {
+    .mission-img img,
+    .vision-img img {
+        width: 300px;
+    }
+
+    .mission-img,
+    .vision-img {
+        margin: 20px 100px;
+    }
+}
 
 
 
