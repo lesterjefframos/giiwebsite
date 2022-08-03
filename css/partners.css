@@ -154,11 +154,6 @@
     font-weight: 600;
 }
 
-.btn a:hover {
-    color: #455EBB;
-    background-color: #ffffff;
-}
-
 .hover-show {
     opacity: 0;
     transition: all 0.5s ease;
