@@ -117,7 +117,7 @@
     justify-content: center;
     align-items: center;
     border: solid 1px #455EBB;
-    padding: 85px 0;
+    padding: 25px 0;
     min-width: 200px;
     border-radius: 15px;
     transition: all 0.5s ease;
@@ -126,25 +126,20 @@
 
 .part-logo img {
     width: 120px;
-    position: absolute;
     opacity: 0.5;
-    top: 65px
+    margin: 30px;
 }
 
 .details {
-    position: absolute;
-    top: 0;
-    transform: translateY(100%);
     font-size: 25px;
     font-weight: 900;
     color: #ffffff;
     pointer-events: none;
+    transform: translateY(50%);
 }
 
 .btn {
-    position: absolute;
-    top: 100px;
-    transform: translateY(100%);
+    transform: translateY(-50%);
 }
 
 .btn a {
