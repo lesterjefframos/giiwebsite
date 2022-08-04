@@ -313,25 +313,6 @@ body.modal-container {
         width: 70%;
         padding: 30px 50px;
         max-height: 90vh;
-    }
-
-    ::-webkit-scrollbar {
-        width: 0;
-    }
-      
-    /* Track */
-    ::-webkit-scrollbar-track {
-        background: #f1f1f1; 
-    }
-    
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: #888; 
-    }
-    
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #555; 
-    }      
+    }     
 }
 
