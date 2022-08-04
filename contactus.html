@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css" type="text/css">
+    <link rel="stylesheet" href="css/contact.css" type="text/css">
+    <link rel="shortcut icon" href="img/gii-icon.svg" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no">
+    <title>Gamma Interactive Inc. | Contact Us</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="img/gii-logo.svg" alt="Gamma Interactive Inc. Logo">
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="partners.html">Partners</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li class="active"><a href="">Contact Us</a></li>
+        </ul>
+    </header>
+
+<!--begin body-->
+    
+    <div class="contact-main-container">
+        <form class="form-container" onsubmit="sendEmail(); reset(); return false;">
+            <div class="form-header">
+                <h2>Send us a message</h2>
+            </div>
+            <input class="name" type="text" id="name" placeholder="Your Name" required>
+            <input class="name" type="email" id="email" placeholder="Enter Your Email" required>
+            <input  type="text" id="contact" placeholder="Contact No." required>
+            <textarea id="message" rows="6" placeholder="How can we help you?"></textarea>
+            <div class="btn-cont">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+        <div class="img-container">
+            <img src="img/contact-us.png" alt="">
+        </div>
+    </div>
+    
+<!--footer-->
+
+    <div class="footer-container">
+        <div class="footer-menu">
+            <ul class="menu">
+                <li><a href="">Home |</a></li>
+                <li><a href="about.html">About Us |</a></li>
+                <li><a href="services.html">Services |</a></li>
+                <li><a href="partners.html">Partners |</a></li>
+                <li><a href="careers.html">Careers |</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="detail-container">
+            <div class="detail-wrapper">
+                <div class="location">
+                    <img src="img/location-icon.svg" alt="Location Icon">
+                    <p>21st Floor Alphaland Makati Place<br>7232 Ayala Ave Cor. Malugay St.<br>Bel-Air Makati City </p>
+                </div>
+                <div class="contact">
+                    <img src="img/contact-icon.svg" alt="Contact Icon">
+                    <p>Contact: 02-53183800<br>Email&nbsp;&nbsp;&nbsp;&nbsp;: recruitment@giiph.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="img/gii-logo.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-text">
+            <span>All Rights Reserved 2022</span>
+        </div>
+    </div>
+    
+<!--scrip here-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/smtp.js"></script>
+
+</body>
+</html>
