@@ -14,6 +14,10 @@ body {
     margin: 0 5px;
 }
 
+.banner-img img {
+    width: 150px;
+}
+
 .banner-text h1 {
     color: #455EBB;
     text-transform: uppercase;
@@ -305,10 +309,29 @@ body.modal-container {
 
 @media screen and (min-width: 1366px) {
     .modal-content {
-        overflow: hidden;
+        overflow-y: auto;
         width: 70%;
         padding: 30px 50px;
         max-height: 90vh;
     }
+
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+      
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }      
 }
 

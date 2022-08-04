@@ -121,6 +121,7 @@
     border-radius: 15px;
     transition: all 0.5s ease;
     background-color: rgba(69, 94, 187, .8);
+    box-shadow: 0 15px 25px rgba(120, 97, 255, 0.4);
 }
 
 .part-logo img {
@@ -163,6 +164,8 @@
 @media screen and (min-width: 1280px) {
     .part-logo {
         background-color: transparent;
+        
+        box-shadow: none;
     }
 
     .part-logo img {
