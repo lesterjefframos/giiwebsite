@@ -1,0 +1,233 @@
+body {
+    background-color: #F1F5FF !important;
+}
+
+.careers-banner-container {
+    padding: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, transparent 0%, #ffffff 100%);
+}
+
+.banner-img {
+    margin: 0 5px;
+}
+
+.banner-text h1 {
+    color: #455EBB;
+    text-transform: uppercase;
+
+}
+
+.banner-text h2,
+.banner-text p {
+    color: #000000;
+}
+
+.banner-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-text p {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .careers-banner-container {
+        padding: 20px 50px;
+    }
+
+    .banner-img,
+    .banner-text {
+        margin: 0 15px;
+    }
+
+    .banner-img img {
+        width: 250px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text h2 {
+        font-size: 25px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .careers-banner-container {
+        display: flex;
+        justify-content: center;
+        padding: 30px 200px;
+    }
+
+    .banner-img img {
+        width: 350px;
+    }
+
+    .banner-text h1 {
+        font-size: 80px;
+    }
+
+    .banner-text h2 {
+        font-size: 50px;
+    }
+
+    .banner-text p {
+        font-size: 25px;
+    }
+}
+
+.jb-opening-container {
+    align-items: center;
+    align-content: center;
+    margin: 50px 0;
+}
+
+.title-text {
+    text-align: center;
+}
+
+.title-text h1 {
+    color: #455EBB;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.jd-container {
+    padding: 8px 0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px 10px;
+    display: block;
+}
+
+.job-req-container {
+    display: block;
+}
+
+.job-req h5,
+.job-req p {
+    font-size: 13px;
+}
+
+.dept,
+.exp,
+.stat,
+.job-title,
+.btn-container {
+    margin: 5px 20px
+}
+
+.job-title {
+    color: #455EBB;
+    text-transform: uppercase;
+}
+
+.btn-container {
+    margin-top: 15px;
+}
+
+.mob-view {
+    display: none;
+}
+
+.btn-container button,
+.btn-container a {
+    outline: none;
+    padding: 10px 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.view {
+    background-color: #ffffff;
+    border: solid 1px #06A94B;
+    color: #06A94B;
+    font-weight: 600;
+}
+
+.apply {
+    background-color: #67BD45;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+}
+/*
+.job-req-container > div {
+    width: 33.33%;
+}
+
+.job-req-container > div:last-child {
+    text-align: right;
+}
+*/
+
+@media screen and (min-width: 768px) {
+
+    .job-req-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .job-req-container > div {
+        width: 33.33%;
+    }
+    
+    .job-req-container > div:last-child {
+        text-align: right;
+    }
+
+    .title-text h1 {
+        font-size: 25px;
+    }
+
+    .job-title h4 {
+        font-size: 18px;
+    }
+
+    .job-req h5,
+    .job-req p {
+        font-size: 15px;
+    }
+
+    .btn-container button,
+    .btn-container a {
+        padding: 10px 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .jd-container {
+        padding: 30px 0;
+    }
+
+    .job-title h4 {
+        font-size: 20px;
+    }
+
+    .job-req h5,
+    .job-req p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .jd-container {
+        margin: 30px 90px;
+        padding: 30px 20px
+    }
+}
