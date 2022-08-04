@@ -153,7 +153,8 @@ body {
     margin-right: 10px;
 }
 
-.btn-container .view {
+.btn-container .view,
+.modal-btn-container .view {
     background-color: #ffffff;
     border: solid 1px #06A94B;
     color: #06A94B;
@@ -161,7 +162,8 @@ body {
     padding: 10px 45px;
 }
 
-.btn-container .apply {
+.btn-container .apply,
+.modal-btn-container .apply {
     background-color: #67BD45;
     border: none;
     color: #ffffff;

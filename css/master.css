@@ -143,11 +143,13 @@ body {
 
     .header ul a {
         box-shadow: none;
-        transition: box-shadow 0.3s ease-in;
+        transition: all 0.3s ease-in;
+        font-weight: 600;
     }
 
     .header ul a:hover {
         box-shadow: 0 -4px 0 #299dd8 inset;
+        padding: 15px 20px 25px 20px;
     }
 
     .menu-icon {
