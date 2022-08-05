@@ -1,0 +1,275 @@
+body {
+  background-color: #f2f8ff;
+}
+
+.back-btn {
+  padding: 20px 5px;
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.back-btn a {
+  color: #455EBB;
+}
+
+.back-btn a:active {
+  color: #455EBB;
+}
+
+@media screen and (min-width: 768px) {
+  .back-btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .back-btn {
+    margin-left: 35px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .back-btn {
+    margin-left: 155px;
+  }
+}
+
+.ga-banner-container {
+  display: block;
+  margin: 0 auto;
+}
+
+.ga-banner {
+  display: flex;
+  background-image: url('../img/mobile-partners-banner.jpg');
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+@media screen and (min-width: 425px) {
+  .ga-banner {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ga-banner {
+    background-image: url('../img/partners-banner.jpg');
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 245px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ga-banner {
+    height: 300px;
+    background-position: top;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .ga-banner {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+  }
+}
+
+.about-partner-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.title h1 {
+  color: #455EBB;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.p1 p {
+  color: #455EBB;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .p1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-partner-section {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 0 20px;
+  }
+
+  .about-partner-section > div {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 30px;
+    margin: 0 0 0 25px;
+  }
+
+  .p1 p{
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .about-partner-section {
+    margin: 40px 20px;
+    padding: 10px 110px;
+  }
+
+  .about-partner-section > div {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 33px;
+    margin: 0 0 0 85px;
+  }
+
+  .p1 p{
+    font-size: 23px;
+  }
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px 30px;
+}
+
+.projects-container h1 {
+  margin: 15px 0;
+}
+
+.p1 ul {
+  margin: auto 30px;
+}
+
+.p1 ul li {
+  color:#455EBB;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media screen  and (min-width: 1024px) {
+  .proj-list {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    width: 100%;
+  }
+
+  .proj-list {
+    list-style-type: none;
+  }
+
+  .proj-list ul li {
+    padding: 0 15px;
+  }
+
+  .p1 ul li {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .p1 ul li {
+    font-size: 18px;
+  }
+}
+
+.gallery-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.gallery {
+  margin: 0 !important;
+}
+
+
+/*slider css*/
+.slider {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .slider {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .slider {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .slider {
+        width: 60%;
+    }
+}

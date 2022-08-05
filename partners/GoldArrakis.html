@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/master.css" type="text/css">
+    <link rel="stylesheet" href="../css/goldarrakis.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick-theme.css">
+    <link rel="shortcut icon" href="../img/gii-icon.svg" type="image/x-icon">
+    <meta name="format-detection" content="telephone=no">
+    <title>Gamma Interactive Inc. | Partners</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="../img/gii-logo.svg" alt="Gamma Interactive Inc. Logo">
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li class="active"><a href="">Partners</a></li>
+            <li><a href="../careers.html">Careers</a></li>
+            <li><a href="../contactus.html">Contact Us</a></li>
+        </ul>
+    </header>
+    
+
+<!--begin body-->
+    <div class="back-btn">
+        <a href="../partners.html">&lt;Back to Partners</a>
+    </div>
+
+    <div class="ga-banner-container">
+        <div class="ga-banner"></div>
+    </div>
+
+    <div class="about-partner-section">
+        <div class="title">
+            <h1>about our partner</h1>
+        </div>
+        <div class="p1">
+            <p>Gold Arrakis was founded in February 2022 by a group of professionals with years of experience in marketing and customer service industry. Their goal is to provide their clients with top-tier services, drawing on the expertise of their founders.<br><br>
+                The company has its head office in Phnom Penh, Cambodia has most of its operations stationed in Sihanoukville, which boasts pristine beaches and an exciting nightlife. If you’re interested in being part of this exciting new venture or are keen to experience living and working in this beautiful coastal city, feel free to contact us! We are also constantly on the lookout for talents for our partners.</p>
+        </div>
+    </div>
+
+    <div class="projects-container">
+        <div class="title">
+            <h1>projects</h1>
+        </div>
+        <div class="p1">
+            <p>
+                <ul class="proj-list">
+                    <li>Omni Channel Marketing</li>
+                    <li>Marketing Automation</li>
+                    <li>Web Analytics & Reporting Services</li>
+                </ul>
+                <ul class="proj-list">
+                    <li>Call Center Support</li>
+                    <li>Customer Service Transformation</li>
+                    <li>Remote Support Service</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="gallery-section">
+        <div class="title">
+            <h1 class="gallery">Gallery</h1>
+        </div>
+        <div class="p1">
+            <p>Here's a glimpse of the picturesque Sihanoukville</p>
+        </div>
+    </div>
+
+<!--slider-section-->
+    
+    <section class="center slider">
+        <div>
+        <img src="../img/gally-img-1.jpg">
+        </div>
+        <div>
+        <img src="../img/gally-img-2.jpg">
+        </div>
+        <div>
+        <img src="../img/gally-img-3.jpg">
+        </div>
+        <div>
+        <img src="../img/gally-img-4.jpg">
+        </div>
+        <div>
+        <img src="../img/gally-img-5.jpg">
+        </div>
+    </section>
+
+
+  
+<!--footer-->
+
+    <div class="footer-container">
+        <div class="footer-menu">
+            <ul class="menu">
+                <li><a href="../index.html">Home |</a></li>
+                <li><a href="../about.html">About Us |</a></li>
+                <li><a href="../services.html">Services |</a></li>
+                <li><a href="../partners.html">Partners |</a></li>
+                <li><a href="../careers.html">Careers |</a></li>
+                <li><a href="../contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="detail-container">
+            <div class="detail-wrapper">
+                <div class="location">
+                    <img src="../img/location-icon.svg" alt="Location Icon">
+                    <p>21st Floor Alphaland Makati Place<br>7232 Ayala Ave Cor. Malugay St.<br>Bel-Air Makati City </p>
+                </div>
+                <div class="contact">
+                    <img src="../img/contact-icon.svg" alt="Contact Icon">
+                    <p>Contact: 02-53183800<br>Email&nbsp;&nbsp;&nbsp;&nbsp;: recruitment@giiph.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+            </div>
+            <div class="footer-logo">
+                <img src="../img/gii-logo.svg" alt="">
+            </div>
+        </div>
+        <div class="footer-text">
+            <span>All Rights Reserved 2022</span>
+        </div>
+    </div>
+    
+<!--scrip here-->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="../js/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".center").slick({
+        dots: false,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows: false,
+        responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToScroll: 1,
+                slidesToShow: 1
+            }
+            }
+        ]
+      });
+    });
+</script>
+</body>
+</html>

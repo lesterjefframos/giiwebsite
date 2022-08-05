@@ -153,23 +153,19 @@ body {
     margin-right: 10px;
 }
 
-.btn-container .view,
-.modal-btn-container .view {
+.view {
     background-color: #ffffff;
     border: solid 1px #06A94B;
     color: #06A94B;
     font-weight: 600;
-    padding: 10px 45px;
 }
 
-.btn-container .apply,
-.modal-btn-container .apply {
+.apply {
     background-color: #67BD45;
     border: none;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
-    padding: 11px 45px;
 }
 
 @media screen and (min-width: 768px) {
@@ -200,17 +196,9 @@ body {
         font-size: 15px;
     }
 
-    .btn-container .view,
-    .btn-container .apply {
-        font-size: 15px;
-    }
-
-    .btn-container .view {
-        padding: 12px 48px;
-    }
-
-    .btn-container .apply {
-        padding: 13px 48px;
+    .btn-container button,
+    .btn-container a {
+        padding: 10px 40px;
     }
 }
 
@@ -325,6 +313,5 @@ body.modal-container {
         width: 70%;
         padding: 30px 50px;
         max-height: 90vh;
-    }     
+    }
 }
-
