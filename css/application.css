@@ -581,16 +581,6 @@ div.form-header-group.header-large {
     .form-all {
       position: relative;
     }
-    .form-all:before {
-      content: "";
-      background-image: url("https://www.jotform.com/uploads/carlsonwong/form_files/MicrosoftTeams-image%20(51).62ce673f1d3590.94947498.png");
-      display: inline-block;
-      height: 140px;
-      position: absolute;
-      background-size: 120px 140px;
-      background-repeat: no-repeat;
-      width: 100%;
-    }
     .form-all {
       margin-top: 10px !important;
     }
