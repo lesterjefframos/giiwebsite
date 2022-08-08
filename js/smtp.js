@@ -1,8 +1,8 @@
 function sendEmail (){
     Email.send({
-        Host : "smtp.gmail.com",
-        Username : "giitestmail2022@gmail.com",
-        Password : "P@ss1234",
+        Host : "smtp.elasticemail.com",
+        Username : "relay@giiph.com",
+        Password : "Quc32554",
         To : "giitestmail2022@gmail.com",
         From : document.getElementById("email").value,
         Subject : "New Inquiry",
@@ -11,6 +11,6 @@ function sendEmail (){
         + "<br> Contact No.: " + document.getElementById("contact").value
         + "<br> Message: " + document.getElementById("message").value
     }).then (
-        message => alert("Message has been sent succesfully!")
+        message => alert("Message Sent Successfully!")
     );
 }
