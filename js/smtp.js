@@ -1,16 +1,21 @@
 function sendEmail (){
     Email.send({
-        Host : "smtp.elasticemail.com",
+        Host : "smtp25.elasticemail.com",
         Username : "relay@giiph.com",
         Password : "4ADDDBE63A276C4057879AA47FA9063A6669",
-        To : "giitestmail2022@gmail.com",
+        To : 'giitestmail2022@gmail.com',
         From : document.getElementById("email").value,
-        Subject : "New Inquiry",
+        Subject : "This is the subject",
         Body : "Name: " + document.getElementById("name").value
         + "<br> Email: " + document.getElementById("email").value
         + "<br> Contact No.: " + document.getElementById("contact").value
         + "<br> Message: " + document.getElementById("message").value
-    }).then (
-        message => alert("Message Sent Successfully!")
+}).then(
+  message => alert(message)
     );
 }
+
+//Body : "Name: " + document.getElementById("name").value
+//+ "<br> Email: " + document.getElementById("email").value
+//+ "<br> Contact No.: " + document.getElementById("contact").value
+//+ "<br> Message: " + document.getElementById("message").value
