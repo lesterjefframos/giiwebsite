@@ -1,6 +1,6 @@
 body {
     background-color: #F1F5FF !important;
-  }
+}
 
 .careers-banner-container {
     padding: 20px 5px;
@@ -106,48 +106,218 @@ body {
     margin-bottom: 20px;
 }
 
-#jobs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .jobs-main-cnt {
-    max-width: 1200px;
-    width: 100%;
-    margin: 16px auto;
-    padding: 32px 64px;
+.jd-container {
+    padding: 8px 0px;
     background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
-  }
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px 10px;
+    display: block;
+}
 
-  .job-title {
+.job-req-container {
+    display: block;
+}
+
+.job-req h5,
+.job-req p {
+    font-size: 13px;
+}
+
+.dept,
+.exp,
+.stat,
+.job-title,
+.btn-container {
+    margin: 5px 20px
+}
+
+.job-title {
     color: #455EBB;
-    margin-bottom: 16px;
-  }
-
-  .job-jd > p {
-    font-weight: bold;
-    margin-bottom: 16px;
-  }
-
-  .job-jd > ul > li:last-child {
-    margin-bottom: 16px;
-  }
-
-  .job-btn {
-    background-color: #67BD45;
-    margin-top: 24px;
-    padding: 12px 40px;
-    border: none;
-    border-radius: 5px;
-  }
-
-  .job-btn a {
-    color: #ffffff;
-    text-decoration: none;
     text-transform: uppercase;
-  }
+}
 
+.btn-container {
+    margin-top: 15px;
+}
+
+.mob-view {
+    display: none;
+}
+
+.btn-container button {
+    outline: none;
+    
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.view {
+    background-color: #ffffff;
+    border: solid 1px #06A94B;
+    color: #06A94B;
+    font-weight: 600;
+    padding: 10px 35px;
+}
+
+.apply {
+    background-color: #67BD45;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 11px 35px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .job-req-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .job-req-container > div {
+        width: 33.33%;
+    }
+    
+    .job-req-container > div:last-child {
+        text-align: right;
+    }
+
+    .title-text h1 {
+        font-size: 25px;
+    }
+
+    .job-title h4 {
+        font-size: 18px;
+    }
+
+    .job-req h5,
+    .job-req p {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .jd-container {
+        padding: 30px 0;
+    }
+
+    .job-title h4 {
+        font-size: 20px;
+    }
+
+    .job-req h5,
+    .job-req p {
+        font-size: 18px;
+    }
+
+    .view {
+        padding: 12px 45px;
+    }
+    
+    .apply {
+        padding: 13px 45px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .jd-container {
+        margin: 30px 90px;
+        padding: 30px 20px
+    }
+}
+
+body.modal-container {
+    position: fixed;
+    overflow: hidden;
+}
+
+.modal-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.modal-show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-content {
+    margin: 20px 0;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #ffffff;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+.modal-content h2 {
+    color: #455EBB;
+    font-size: 18px;
+}
+
+.overview,
+.duties,
+.reqs {
+    font-size: 13px;
+}
+
+.modal-btn-container {
+    margin-top: 25px;
+}
+
+.modal-btn-container button {
+    outline: none;
+    padding: 10px 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-content {
+        padding: 50px 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .modal-content {
+        padding: 20px 50px;
+        max-height: 90vh;
+    }
+
+    .modal-content h2 {
+        font-size: 22px;
+    }
+    
+    .overview,
+    .duties,
+    .reqs {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .modal-content {
+        overflow-y: auto;
+        width: 70%;
+        padding: 30px 50px;
+        max-height: 90vh;
+    }
+}
